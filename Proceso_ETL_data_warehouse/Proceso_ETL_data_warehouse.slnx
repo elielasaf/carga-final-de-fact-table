@@ -1,0 +1,5 @@
+<Solution>
+  <Project Path="../proceso_ETL.DATA/proceso_ETL.DATA.csproj" />
+  <Project Path="../proceso_ETL.LOAD/proceso_ETL.LOAD.csproj" />
+  <Project Path="Proceso_ETL.PRESENTATION.csproj" />
+</Solution>

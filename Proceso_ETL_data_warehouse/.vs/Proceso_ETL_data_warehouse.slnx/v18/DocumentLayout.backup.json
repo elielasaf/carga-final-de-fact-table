@@ -1,0 +1,54 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\owner\\Documents\\Tareas Itla\\Electiva 1\\ETL Data Warehouse\\Proceso_ETL_data_warehouse\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{319AB2E6-C35B-4642-ACA0-3ACDF471EBCC}|Proceso_ETL.PRESENTATION.csproj|c:\\users\\owner\\documents\\tareas itla\\electiva 1\\etl data warehouse\\proceso_etl_data_warehouse\\workers\\worker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{319AB2E6-C35B-4642-ACA0-3ACDF471EBCC}|Proceso_ETL.PRESENTATION.csproj|solutionrelative:workers\\worker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{319AB2E6-C35B-4642-ACA0-3ACDF471EBCC}|Proceso_ETL.PRESENTATION.csproj|c:\\users\\owner\\documents\\tareas itla\\electiva 1\\etl data warehouse\\proceso_etl_data_warehouse\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{319AB2E6-C35B-4642-ACA0-3ACDF471EBCC}|Proceso_ETL.PRESENTATION.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\owner\\Documents\\Tareas Itla\\Electiva 1\\ETL Data Warehouse\\Proceso_ETL_data_warehouse\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\owner\\Documents\\Tareas Itla\\Electiva 1\\ETL Data Warehouse\\Proceso_ETL_data_warehouse\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-05T23:56:50.311Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Worker.cs",
+              "DocumentMoniker": "C:\\Users\\owner\\Documents\\Tareas Itla\\Electiva 1\\ETL Data Warehouse\\Proceso_ETL_data_warehouse\\Workers\\Worker.cs",
+              "RelativeDocumentMoniker": "Workers\\Worker.cs",
+              "ToolTip": "C:\\Users\\owner\\Documents\\Tareas Itla\\Electiva 1\\ETL Data Warehouse\\Proceso_ETL_data_warehouse\\Workers\\Worker.cs",
+              "RelativeToolTip": "Workers\\Worker.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAC4AAABUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-05T23:42:10.478Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
