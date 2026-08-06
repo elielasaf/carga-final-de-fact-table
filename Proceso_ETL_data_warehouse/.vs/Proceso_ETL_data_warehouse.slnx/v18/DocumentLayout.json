@@ -3,8 +3,11 @@
   "WorkspaceRootPath": "C:\\Users\\owner\\Documents\\Tareas Itla\\Electiva 1\\ETL Data Warehouse\\Proceso_ETL_data_warehouse\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{319AB2E6-C35B-4642-ACA0-3ACDF471EBCC}|Proceso_ETL.PRESENTATION.csproj|c:\\users\\owner\\documents\\tareas itla\\electiva 1\\etl data warehouse\\proceso_etl_data_warehouse\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{319AB2E6-C35B-4642-ACA0-3ACDF471EBCC}|Proceso_ETL.PRESENTATION.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{3984B0D0-5917-AED8-3642-C9DBAA97821E}|..\\proceso_ETL.LOAD\\proceso_ETL.LOAD.csproj|c:\\users\\owner\\documents\\tareas itla\\electiva 1\\etl data warehouse\\proceso_etl.load\\services\\etlorchestratorservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C5CA5A4D-A132-8003-CD5E-477442C217E5}|Proceso_ETL.PRESENTATION.csproj|c:\\users\\owner\\documents\\tareas itla\\electiva 1\\etl data warehouse\\proceso_etl_data_warehouse\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C5CA5A4D-A132-8003-CD5E-477442C217E5}|Proceso_ETL.PRESENTATION.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -19,15 +22,27 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "EtlOrchestratorService.cs",
+              "DocumentMoniker": "C:\\Users\\owner\\Documents\\Tareas Itla\\Electiva 1\\ETL Data Warehouse\\proceso_ETL.LOAD\\Services\\EtlOrchestratorService.cs",
+              "RelativeDocumentMoniker": "..\\proceso_ETL.LOAD\\Services\\EtlOrchestratorService.cs",
+              "ToolTip": "C:\\Users\\owner\\Documents\\Tareas Itla\\Electiva 1\\ETL Data Warehouse\\proceso_ETL.LOAD\\Services\\EtlOrchestratorService.cs",
+              "RelativeToolTip": "..\\proceso_ETL.LOAD\\Services\\EtlOrchestratorService.cs",
+              "ViewState": "AgIAABgAAAAAAAAAAAAYwCYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-06T21:33:39.395Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\owner\\Documents\\Tareas Itla\\Electiva 1\\ETL Data Warehouse\\Proceso_ETL_data_warehouse\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
               "ToolTip": "C:\\Users\\owner\\Documents\\Tareas Itla\\Electiva 1\\ETL Data Warehouse\\Proceso_ETL_data_warehouse\\Program.cs",
               "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAAA8AAAAAAAAAAAAQwBYAAAALAAAAAAAAAA==",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAABEAAABZAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-08-05T23:56:50.311Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-08-06T21:32:56.223Z"
             }
           ]
         }

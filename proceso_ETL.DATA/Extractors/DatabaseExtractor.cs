@@ -4,10 +4,11 @@ using System.Collections.Generic;
 using System.Data;
 using System.Text;
 using proceso_ETL.DATA.Models;
+using proceso_ETL.DATA.Interfaces;
 
 namespace proceso_ETL.DATA.Extractors
 {
-    public class DatabaseExtractor
+    public class DatabaseExtractor : IDatabaseExtractor
     {
         private readonly string _connectionString;
 

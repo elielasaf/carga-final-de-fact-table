@@ -4,7 +4,7 @@ using proceso_ETL.DATA.Models;
 
 namespace proceso_ETL.DATA.Extractors
 {
-    public class APIExtractor
+    public class APIExtractor : IApiExtractor
     {
         private readonly HttpClient _httpClient;
 

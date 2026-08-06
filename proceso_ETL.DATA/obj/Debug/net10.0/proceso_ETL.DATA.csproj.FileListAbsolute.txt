@@ -1,12 +1,12 @@
+C:\Users\owner\Documents\Tareas Itla\Electiva 1\ETL Data Warehouse\proceso_ETL.DATA\bin\Debug\net10.0\proceso_ETL.DATA.deps.json
+C:\Users\owner\Documents\Tareas Itla\Electiva 1\ETL Data Warehouse\proceso_ETL.DATA\bin\Debug\net10.0\proceso_ETL.DATA.dll
+C:\Users\owner\Documents\Tareas Itla\Electiva 1\ETL Data Warehouse\proceso_ETL.DATA\bin\Debug\net10.0\proceso_ETL.DATA.pdb
 C:\Users\owner\Documents\Tareas Itla\Electiva 1\ETL Data Warehouse\proceso_ETL.DATA\obj\Debug\net10.0\proceso_ETL.DATA.csproj.AssemblyReference.cache
 C:\Users\owner\Documents\Tareas Itla\Electiva 1\ETL Data Warehouse\proceso_ETL.DATA\obj\Debug\net10.0\proceso_ETL.DATA.GeneratedMSBuildEditorConfig.editorconfig
 C:\Users\owner\Documents\Tareas Itla\Electiva 1\ETL Data Warehouse\proceso_ETL.DATA\obj\Debug\net10.0\proceso_ETL.DATA.AssemblyInfoInputs.cache
 C:\Users\owner\Documents\Tareas Itla\Electiva 1\ETL Data Warehouse\proceso_ETL.DATA\obj\Debug\net10.0\proceso_ETL.DATA.AssemblyInfo.cs
 C:\Users\owner\Documents\Tareas Itla\Electiva 1\ETL Data Warehouse\proceso_ETL.DATA\obj\Debug\net10.0\proceso_ETL.DATA.csproj.CoreCompileInputs.cache
 C:\Users\owner\Documents\Tareas Itla\Electiva 1\ETL Data Warehouse\proceso_ETL.DATA\obj\Debug\net10.0\proceso_ETL.DATA.sourcelink.json
-C:\Users\owner\Documents\Tareas Itla\Electiva 1\ETL Data Warehouse\proceso_ETL.DATA\bin\Debug\net10.0\proceso_ETL.DATA.deps.json
-C:\Users\owner\Documents\Tareas Itla\Electiva 1\ETL Data Warehouse\proceso_ETL.DATA\bin\Debug\net10.0\proceso_ETL.DATA.dll
-C:\Users\owner\Documents\Tareas Itla\Electiva 1\ETL Data Warehouse\proceso_ETL.DATA\bin\Debug\net10.0\proceso_ETL.DATA.pdb
 C:\Users\owner\Documents\Tareas Itla\Electiva 1\ETL Data Warehouse\proceso_ETL.DATA\obj\Debug\net10.0\proceso_ETL.DATA.dll
 C:\Users\owner\Documents\Tareas Itla\Electiva 1\ETL Data Warehouse\proceso_ETL.DATA\obj\Debug\net10.0\refint\proceso_ETL.DATA.dll
 C:\Users\owner\Documents\Tareas Itla\Electiva 1\ETL Data Warehouse\proceso_ETL.DATA\obj\Debug\net10.0\proceso_ETL.DATA.pdb
