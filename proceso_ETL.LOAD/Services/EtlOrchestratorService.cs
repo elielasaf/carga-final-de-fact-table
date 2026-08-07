@@ -37,8 +37,8 @@ namespace proceso_ETL.LOAD.Services
             var endDateParam = new SqlParameter("@EndDate", SqlDbType.Date) { Value = "2025-12-31" };
             await _dataLoader.ExecuteStoredProcedureAsync("sp_LoadDimDate", new[] { startDateParam, endDateParam });
 
-            _logger.LogInformation("Poblando FactSales...");
-            await _dataLoader.ExecuteStoredProcedureAsync("sp_LoadFactSales");
+            //_logger.LogInformation("Poblando FactSales...");
+            //await _dataLoader.ExecuteStoredProcedureAsync("sp_LoadFactSales");
 
             _logger.LogInformation("Carga del Data Warehouse finalizada con éxito.");
         }
