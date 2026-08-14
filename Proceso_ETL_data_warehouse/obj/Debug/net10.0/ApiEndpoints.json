@@ -1,0 +1,12 @@
+[
+  {
+    "ContainingType": "proceso_ETL.PRESENTATION.Controllers.EtlController",
+    "Method": "RunEtlProcess",
+    "RelativePath": "api/Etl/run",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  }
+]

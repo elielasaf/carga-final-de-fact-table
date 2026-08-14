@@ -5,6 +5,7 @@ using System;
 using System.Collections.Generic;
 using System.Data;
 using System.Text;
+using System.Threading.Tasks;
 
 namespace proceso_ETL.LOAD.Services
 {
@@ -21,7 +22,7 @@ namespace proceso_ETL.LOAD.Services
 
         public async Task RunLoadProcessAsync()
         {
-            _logger.LogInformation("Iniciando fase de Carga (L de ETL) hacia el Data Warehouse desde el servicio de Load...");
+            _logger.LogInformation("Iniciando fase de Carga (L de ETL) hacia el Data Warehouse...");
 
             _logger.LogInformation("Poblando DimGeography...");
             await _dataLoader.ExecuteStoredProcedureAsync("sp_LoadDimGeography");
@@ -37,10 +38,10 @@ namespace proceso_ETL.LOAD.Services
             var endDateParam = new SqlParameter("@EndDate", SqlDbType.Date) { Value = "2025-12-31" };
             await _dataLoader.ExecuteStoredProcedureAsync("sp_LoadDimDate", new[] { startDateParam, endDateParam });
 
-            //_logger.LogInformation("Poblando FactSales...");
-            //await _dataLoader.ExecuteStoredProcedureAsync("sp_LoadFactSales");
+            _logger.LogInformation("Limpiando y poblando FactSales...");
+            await _dataLoader.ExecuteStoredProcedureAsync("sp_LoadFactSales");
 
-            _logger.LogInformation("Carga del Data Warehouse finalizada con éxito.");
+            _logger.LogInformation("Carga completa del Data Warehouse finalizada con éxito.");
         }
     }
 }

@@ -1,10 +1,24 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
+﻿using Microsoft.Extensions.Logging;
 
 namespace proceso_ETL.LOAD.Services
 {
-    public class LoggerService
+    public class LoggerService<T>
     {
+        private readonly ILogger<T> _logger;
+
+        public LoggerService(ILogger<T> logger)
+        {
+            _logger = logger;
+        }
+
+        public void LogInfo(string message)
+        {
+            _logger.LogInformation(message);
+        }
+
+        public void LogError(string message, Exception ex)
+        {
+            _logger.LogError(ex, message);
+        }
     }
 }

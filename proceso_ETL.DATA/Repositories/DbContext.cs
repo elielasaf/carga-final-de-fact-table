@@ -1,10 +1,19 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
+﻿using Microsoft.Data.SqlClient;
 
 namespace proceso_ETL.DATA.Repositories
 {
-    internal class DbContext
+    public class DbContext
     {
+        private readonly string _connectionString;
+
+        public DbContext(string connectionString)
+        {
+            _connectionString = connectionString;
+        }
+
+        public SqlConnection GetConnection()
+        {
+            return new SqlConnection(_connectionString);
+        }
     }
 }

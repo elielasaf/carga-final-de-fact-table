@@ -4,26 +4,34 @@ using Microsoft.Extensions.Hosting;
 using proceso_ETL.DATA.Extractors;
 using proceso_ETL.DATA.Interfaces;
 using proceso_ETL.DATA.Loaders;
-using proceso_ETL.LOAD;
 using proceso_ETL.LOAD.Services;
 using proceso_ETL.PRESENTATION;
 
-var builder = Host.CreateApplicationBuilder(args);
+var host = Host.CreateDefaultBuilder(args)
+    .ConfigureAppConfiguration((context, config) =>
+    {
+        config.SetBasePath(AppContext.BaseDirectory);
+        config.AddJsonFile("appsettings.json", optional: false, reloadOnChange: true);
+    })
+    .ConfigureServices((context, services) =>
+    {
+        var configuration = context.Configuration;
 
-string relationalConn = builder.Configuration.GetConnectionString("RelationalDB") ?? "";
-string dwConn = builder.Configuration.GetConnectionString("DataWarehouse") ?? "";
-string apiBaseUrl = builder.Configuration["ApiSettings:BaseUrl"] ?? "https://API.procesoETL.com";
+        string relationalConn = configuration.GetConnectionString("RelationalDB") ?? "";
+        string dwConn = configuration.GetConnectionString("DataWarehouse") ?? "";
+        string apiBaseUrl = configuration["ApiSettings:BaseUrl"] ?? "https://API.procesoETL.com";
 
+        services.AddTransient<IDatabaseExtractor>(sp => new DatabaseExtractor(relationalConn));
+        services.AddTransient<IDataLoader>(sp => new DataLoader(dwConn));
+        services.AddTransient<EtlOrchestratorService>();
 
-builder.Services.AddSingleton<IDatabaseExtractor>(new DatabaseExtractor(relationalConn));
-builder.Services.AddTransient<EtlOrchestratorService>();
-builder.Services.AddHttpClient<IApiExtractor, APIExtractor>(client => {
-    client.BaseAddress = new Uri(apiBaseUrl);
-});
+        services.AddHttpClient<IApiExtractor, APIExtractor>(client => {
+            client.BaseAddress = new Uri(apiBaseUrl);
+        });
 
-builder.Services.AddTransient<ICsvExtractor, CsvExtractor>();
-builder.Services.AddSingleton<IDataLoader>(new DataLoader(dwConn));
-builder.Services.AddHostedService<Worker>();
+        services.AddTransient<ICsvExtractor, CsvExtractor>();
+        services.AddHostedService<Worker>();
+    })
+    .Build();
 
-var host = builder.Build();
-host.Run();
+await host.RunAsync();

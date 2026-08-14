@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("proceso_ETL.LOAD")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c151460f4d010fe64105122e9150929a74f8abc3")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+95b4076ae94dfc2bc272d8567b18d55ced2fa027")]
 [assembly: System.Reflection.AssemblyProductAttribute("proceso_ETL.LOAD")]
 [assembly: System.Reflection.AssemblyTitleAttribute("proceso_ETL.LOAD")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
